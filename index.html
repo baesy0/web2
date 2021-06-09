@@ -30,6 +30,8 @@
     <link rel="preload" href="./img/objectTracking.jpg" as="image">
     <link rel="preload" href="./img/rotomation.jpg" as="image">
     <link href="css/creative.css" rel="stylesheet">
+    <!--슬라이드 라이브러리-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   </head>
 
   <body id="page-top">
@@ -161,99 +163,77 @@
 
 
 <!--Carousel block Start-->
-<section id="history">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">History</h2>
-        <hr class="my-4">
-      </div>
+<div class="container pt-5">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading">History</h2>
     </div>
   </div>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <!--safari에서는 slide 버그가 있다.-->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+</div>
+<div class="splide pb-5">
+	<div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
         <div class="row">
           <div class="col"></div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2021/kingdom-2-1.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2021/kingdom-2-1.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2021/movie_image.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2021/movie_image.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2021/sweethome.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2021/sweethome.jpg">
           </div>
           <div class="col"></div>
         </div>
-      </div>
-      <div class="carousel-item">
+      </li>
+			<li class="splide__slide">
         <div class="row">
           <div class="col"></div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2020/THE_CLIMBERS.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2020/THE_CLIMBERS.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2021/97898_70480_747.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2021/97898_70480_747.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2021/house.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2021/house.jpg">
           </div>
           <div class="col"></div>
         </div>
-      </div>
-      <div class="carousel-item">
+      </li>
+			<li class="splide__slide">
         <div class="row">
           <div class="col"></div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2020/CHUNMOON.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2020/CHUNMOON.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2020/DR_HYYH.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2020/DR_HYYH.jpg">
           </div>
           <div class="col">
-            <img class="d-block w-100" src="img/poster/2020/NAMSAN.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/poster/2020/NAMSAN.jpg">
           </div>
           <div class="col"></div>
         </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</section>
+      </li>
+		</ul>
+	</div>
+</div>
 <!--Carousel block End-->
-
 
 
 
 <!--Fifth block-->
 <!--Fifth block End-->
-
-
-
-    
-
-
-
-  
-
-  
   
 <!--footer-->
     <footer class="p-3 text-center bg-primary">
         <div class="row">
-          <div class="col-12 text-center text-gold py-2">
-            서울특별시 강남구 압구정동 희봉빌딩 5F
-          </div>
           <div class="col-12 text-center text-gold" id="copyright">
-            ⓒ 2019 75mm Studio Co., Ltd. All rights reserved.
+            서울특별시 강남구 압구정동 희봉빌딩 5F<br>
+            ⓒ 2021 75mm Studio Co., Ltd. All rights reserved.
           </div>
         </div>
     </footer>
@@ -266,4 +246,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="js/creative.js"></script>
   <script src="js/homepage.js"></script>
+  <!--슬라이드 라이브러리-->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <!--슬라이드 라이브러리를 마운트해야 슬라이드가 작동된다.-->
+  <script>
+    new Splide( '.splide', {
+      type: 'loop',
+    } ).mount();
+  </script>
 </html>
