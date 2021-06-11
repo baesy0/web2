@@ -41,6 +41,7 @@
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(194,153,110, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
  }
  
+ /* Not using */
  hr.light {
    border-color: #fff;
  }
@@ -59,14 +60,16 @@
    font-family: 'NanumSquare', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
  }
  
+ /* Not using */
  #copyright {
    font-size: 0.7em;
  }
  
  .text-footer {
-   font-size: 0.8em;
+   font-size: 0.7em;
  }
  
+ /* Not using */
  .quote {
    color: #dbad64 ;
  }
@@ -75,14 +78,17 @@
    background-color: #3b3b40 !important;
  }
  
+ /* Not using */
  .bg-dark {
    background-color: #3b3b40 !important;
  }
  
+ /* Not using */
  .text-faded {
    color: rgba(255, 255, 255, 0.7);
  }
  
+ /* Not using */
  section {
    padding: 8rem 0;
  }
@@ -91,33 +97,33 @@
    margin-top: 0;
  }
  
+ /* Not using */
  ::-moz-selection {
    color: #fff;
    background: #3b3b40;
    text-shadow: none;
  }
  
+ /* Not using */
  ::selection {
    color: #fff;
    background: #3b3b40;
    text-shadow: none;
  }
  
+ /* Not using */
  img::-moz-selection {
    color: #fff;
    background: transparent;
  }
  
+ /* Not using */
  img::selection {
    color: #fff;
    background: transparent;
  }
  
- img::-moz-selection {
-   color: #fff;
-   background: transparent;
- }
- 
+ /* Not using */
  .vimeo {
      width: 280px;
    height: 157px;
@@ -132,12 +138,16 @@
    transition: all 0.2s;
  }
  
+ /* Not using */
+ /* navbar-brand는 있지만 폰트가 없어서 사실상 쓰이지 않고 있다. */
  #mainNav .navbar-brand {
    font-weight: 300;
    color: #C2996E;
    font-family: 'NanumSquare', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
  }
  
+ /* Not using */
+ /* navbar-brand는 있지만 폰트가 없어서 사실상 쓰이지 않고 있다. */
  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
    color: #fff ;
  }
@@ -167,7 +177,7 @@
  }
  
  
- 
+ /* Not using */
  .onset01 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -179,12 +189,13 @@
    color: #000;
  }
  
- 
+ /* Not using */
  .onset01:hover, .onset01:active {
    background-image: url("../img/onsetEqu.jpg");
    color: #fff;
  }
  
+ /* Not using */
  .onset02 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -196,11 +207,13 @@
    color: #000;
  }
  
+ /* Not using */
  .onset02:hover, .onset02:active {
    background-image: url("../img/lidar.jpg");
    color: #fff;
  }
  
+ /* Not using */
  .onset03 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -212,11 +225,13 @@
    color: #000;
  }
  
+ /* Not using */
  .onset03:hover, .onset03:active {
    background-image: url("../img/layout.jpg");
    color: #fff;
  }
  
+ /* Not using */
  .matchmove01 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -228,11 +243,13 @@
    color: #000;
  }
  
+ /* Not using */
  .matchmove01:hover, .matchmove01:active {
    background-image: url("../img/cameraTracking.jpg");
    color: #fff;
  }
  
+ /* Not using */
  .matchmove02 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -243,11 +260,14 @@
    transition: background-image 1s;
    color: #000;
  }
+
+ /* Not using */
  .matchmove02:hover, .matchmove02:active {
    background-image: url("../img/objectTracking.jpg");
    color: #fff;
  }
  
+ /* Not using */
  .matchmove03 {
    background-image: url("../img/blink.svg");
    -webkit-background-size: cover;
@@ -258,11 +278,14 @@
    transition: background-image 1s;
    color: #000;
  }
+
+ /* Not using */
  .matchmove03:hover, .matchmove03:active {
    background-image: url("../img/rotomation.jpg");
    color: #fff;
  }
  
+ /* Not using */
  header.masthead {
    padding-top: 10rem;
    padding-bottom: calc(10rem - 56px);
@@ -271,22 +294,29 @@
    background-color: #3b3b40;
    min-height: 650px;
  }
+
+ /* Not using */
  .img-fluid {
    width: 100%;
  }
+
+ /* Not using */
  header.masthead hr {
    margin-top: 30px;
    margin-bottom: 30px;
  }
  
+ /* Not using */
  header.masthead h1 {
    font-size: 2rem;
  }
  
+ /* Not using */
  header.masthead p {
    font-weight: 300;
  }
  
+ /* Not using */
  @media (min-width: 640px) {
    .vimeo {
        width: 320px;
@@ -294,7 +324,7 @@
    }
  }
  
- 
+ /* Not using */
  @media (min-width: 768px) {
    header.masthead p {
      font-size: 1.15rem;
@@ -312,6 +342,7 @@
  }
  
  
+ /* Not using */
  @media (min-width: 992px) {
    header.masthead {
      height: 100vh;
@@ -328,6 +359,7 @@
    }
  }
  
+ /* Not using */
  @media (min-width: 1200px) {
    header.masthead h1 {
      font-size: 4rem;
@@ -338,7 +370,7 @@
    }
  }
  
- 
+ /* Not using */
  @media (min-width: 1800px) {
    .vimeo {
        width: 1700px;
@@ -346,6 +378,7 @@
    }
  }
  
+ /* Not using */
  /* 2560 : imac */
  @media (min-width: 2500px) {
    .vimeo {
@@ -354,6 +387,7 @@
    }
  }
  
+ /* Not using */
  /* 3840 : 4k */
  @media (min-width: 3780px) {
    .vimeo {
@@ -362,11 +396,12 @@
    }
  }
  
- 
+ /* Not using */
  .service-box {
    max-width: 400px;
  }
  
+ /* Not using */
  .portfolio-box {
    position: relative;
    display: block;
@@ -374,6 +409,7 @@
    margin: 0 auto;
  }
  
+ /* Not using */
  .portfolio-box .portfolio-box-caption {
    position: absolute;
    bottom: 0;
@@ -387,6 +423,7 @@
    transition: all 0.2s;
  }
  
+ /* Not using */
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
    position: absolute;
    top: 50%;
@@ -396,31 +433,36 @@
    text-align: center;
  }
  
+ /* Not using */
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
    padding: 0 15px;
    font-family: 'NanumSquare', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
  }
  
+ /* Not using */
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
    font-size: 14px;
    font-weight: 600;
    text-transform: uppercase;
  }
  
+ /* Not using */
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
    font-size: 18px;
  }
  
+ /* Not using */
  .portfolio-box:hover .portfolio-box-caption {
    opacity: 1;
  }
  
+ /* Not using */
  .portfolio-box:focus {
    outline: none;
  }
  
- 
+ /* Not using */
  .text-primary {
    color: #444444 !important;
  }
@@ -433,23 +475,29 @@
    font-family: 'NanumSquare', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
  }
  
+ /* Not using */
  .btn-xl {
    padding: 1rem 2rem;
  }
  
+ 
  .btn-primary {
    background-color: rgba(194, 153, 110, 0.15) !important;
  }
+ 
  
  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
    color: #fff;
    background-color: rgba(194, 153, 110, 0.25) !important;
  }
  
+ 
  .btn-primary:active, .btn-primary:focus {
    -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
  }
+
+ /* Not using */
  .nanumsquare {
    font-family: 'NanumSquare', sans-serif !important;
    font-weight: 300;
